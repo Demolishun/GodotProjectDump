@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://DrawingTesting01.gd" type="Script" id=1]
+[ext_resource path="res://noisetexture.tres" type="Texture" id=2]
+[ext_resource path="res://testbmp.png" type="Texture" id=3]
+
+[node name="ControlCanvas" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 64.0
+margin_right = 128.0
+margin_bottom = 64.0
+texture = ExtResource( 2 )
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+margin_left = 64.0
+margin_top = 64.0
+margin_right = 128.0
+margin_bottom = 128.0
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
